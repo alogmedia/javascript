@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   <title>Jeg har aldrig - Drukspil</title>
 </head>
 <body>
@@ -15,9 +15,11 @@
   </div>
   <div id="addStatement">
     <h2>Tilføj en ny påstand:</h2>
-    <input type="text" id="newStatement" placeholder="Skriv din påstand her">
-    <button id="add">Tilføj</button>
+    <form id="addStatementForm">
+      <input type="text" id="newStatement" placeholder="Indtast en påstand" />
+      <button type="button" id="add">Tilføj påstand</button>
+    </form>
   </div>
-  <script src="script.js"></script>
+  <script src="assets/scripts/script.js"></script>
 </body>
 </html>
