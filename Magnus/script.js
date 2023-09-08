@@ -75,13 +75,56 @@ else
       
   }
 
-//var black = "black";
-//var white = "white";
-//var blue = "blue";
-//var yellow = "yellow";
 
-var colors = ["black", "white","blue","yellow"];
+var colors = ["sort", "blå", "hvid", "gul"];
 
-function changeColor(element, color) {
-  element.style.backgroundColor = color;
+if (colors[2] === "hvid") {
+  alert("Farven hvid er nummer 3 i arrayet.");
+} else {
+  alert("Farven hvid er ikke nummer 3 i arrayet.");
 }
+
+var tal = [5, 8, 9, 3];
+var tjekTal = 2; 
+
+if (tal[tjekTal] > 10) {
+  console.log("Tallet på indeks " + tjekTal + " er større end 10.");
+} else {
+  console.log("Tallet på indeks " + tjekTal + " er ikke større end 10.");
+}
+
+
+var navn = ["Morten","Jesper","Finn"];
+var findFinn = ("Finn");
+
+if (navn.includes(findFinn)) {
+  alert("Finn blev fundet i arrayen!");
+} else {
+  alert("Finn blev ikke fundet i arrayen.");
+}
+
+function hilsen(Magnus) {
+  console.log("Hej, " + navn + "!");
+}
+
+function changeElement() {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
